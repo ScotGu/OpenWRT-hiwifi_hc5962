@@ -19,4 +19,5 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git zerotier https://github.com/mwarning/zerotier-openwrt.git' feeds.conf.default
 
-cd package/lean ; rm -rf luci-theme-argon ;git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+cd ~/lede/package ; git clone https://github.com/tty228/luci-app-serverchan.git
+cd ~/lede/package/lean ; rm -rf luci-theme-argon ; git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
